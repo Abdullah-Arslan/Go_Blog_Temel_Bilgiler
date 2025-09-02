@@ -5,6 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-<h1>{{.}}</h1>
+<form action="/deneme" method="post">
+    <input type="text" name="username">
+    <input type="checkbox" name="check">
+    <select name="select">
+        <option value="1">Admin</option>
+        <option value="0">Editör</option>
+    </select>
+    <button type="submit"> Kaydet </button>
+
+</form>
 </body>
 </html>
